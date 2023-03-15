@@ -30,7 +30,9 @@ public class Order {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE , generator = "order_seq")
 	private int orderId;
 	
-	private int productId;	
+	private int productId;
+	
+	private String clientName;
 	
 	private int quantity;
 	
